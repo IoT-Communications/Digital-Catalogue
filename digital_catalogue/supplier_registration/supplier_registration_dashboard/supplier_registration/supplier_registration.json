@@ -1,0 +1,38 @@
+{
+ "cards": [
+  {
+   "card": "Incomplete Registrations"
+  },
+  {
+   "card": "Completed Registrations"
+  },
+  {
+   "card": "Citizen Owned"
+  },
+  {
+   "card": "Woman Owned"
+  }
+ ],
+ "charts": [
+  {
+   "chart": "Daily Supplier Registrations",
+   "width": "Half"
+  },
+  {
+   "chart": "Product or Service Category",
+   "width": "Half"
+  }
+ ],
+ "creation": "2022-06-07 09:28:38.515706",
+ "dashboard_name": "Supplier Registration",
+ "docstatus": 0,
+ "doctype": "Dashboard",
+ "idx": 0,
+ "is_default": 0,
+ "is_standard": 1,
+ "modified": "2022-06-07 09:52:26.704210",
+ "modified_by": "Administrator",
+ "module": "Supplier Registration",
+ "name": "Supplier Registration",
+ "owner": "Administrator"
+}

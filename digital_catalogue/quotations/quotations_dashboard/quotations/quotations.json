@@ -1,0 +1,32 @@
+{
+ "cards": [
+  {
+   "card": "Incomplete Quotations"
+  },
+  {
+   "card": "Completed Quotations"
+  }
+ ],
+ "charts": [
+  {
+   "chart": "Daily Quotations",
+   "width": "Half"
+  },
+  {
+   "chart": "Quotation Categories",
+   "width": "Half"
+  }
+ ],
+ "creation": "2022-06-07 10:14:06.204782",
+ "dashboard_name": "Quotations",
+ "docstatus": 0,
+ "doctype": "Dashboard",
+ "idx": 0,
+ "is_default": 0,
+ "is_standard": 1,
+ "modified": "2022-06-07 10:38:59.064306",
+ "modified_by": "Administrator",
+ "module": "Quotations",
+ "name": "Quotations",
+ "owner": "Administrator"
+}

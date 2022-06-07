@@ -1,0 +1,73 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-06-05 23:50:08.842362",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "company_name",
+  "product_service",
+  "start_date",
+  "finish_date",
+  "contract_value",
+  "contact_person",
+  "contact_number"
+ ],
+ "fields": [
+  {
+   "fieldname": "company_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Company Name"
+  },
+  {
+   "fieldname": "product_service",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Product or Service Offered",
+   "options": "Products or Services"
+  },
+  {
+   "fieldname": "start_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Start Date"
+  },
+  {
+   "fieldname": "finish_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Finish Date"
+  },
+  {
+   "fieldname": "contract_value",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Contract Value"
+  },
+  {
+   "fieldname": "contact_person",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Contact Person"
+  },
+  {
+   "fieldname": "contact_number",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Contact Number"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2022-06-06 09:54:01.286716",
+ "modified_by": "Administrator",
+ "module": "Digital Catalogue",
+ "name": "References",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

@@ -1,0 +1,31 @@
+{
+ "attach_print": 0,
+ "channel": "Email",
+ "creation": "2022-06-06 22:37:46.368030",
+ "days_in_advance": 0,
+ "docstatus": 0,
+ "doctype": "Notification",
+ "document_type": "RFQ",
+ "enabled": 1,
+ "event": "Value Change",
+ "idx": 0,
+ "is_standard": 1,
+ "message": "Good day,\n\n<br><br>\n\nYou are invited to submit a quotation for {{ doc.name }}. Please login to the MLRGD digital catalogue portal to submit a response.\n\n<br><br>\n\nRegards,",
+ "modified": "2022-06-06 23:19:48.488443",
+ "modified_by": "Administrator",
+ "module": "RFQ",
+ "name": "Request for Quotation",
+ "owner": "Administrator",
+ "recipients": [
+  {
+   "condition": "doc.workflow_state == 'Submitted'",
+   "receiver_by_role": "MLGRD Supplier"
+  }
+ ],
+ "send_system_notification": 1,
+ "send_to_all_assignees": 0,
+ "sender": "Admin",
+ "sender_email": "admin@iotcomms.co.bw",
+ "subject": "{{ doc.name }} ",
+ "value_changed": "workflow_state"
+}

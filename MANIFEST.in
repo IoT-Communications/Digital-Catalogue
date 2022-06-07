@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include digital_catalogue *.css
+recursive-include digital_catalogue *.csv
+recursive-include digital_catalogue *.html
+recursive-include digital_catalogue *.ico
+recursive-include digital_catalogue *.js
+recursive-include digital_catalogue *.json
+recursive-include digital_catalogue *.md
+recursive-include digital_catalogue *.png
+recursive-include digital_catalogue *.py
+recursive-include digital_catalogue *.svg
+recursive-include digital_catalogue *.txt
+recursive-exclude digital_catalogue *.pyc

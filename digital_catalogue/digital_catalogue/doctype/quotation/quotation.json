@@ -1,0 +1,141 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{company_name}-{#####}",
+ "creation": "2022-06-06 20:00:19.800276",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "rfq_number",
+  "company_details",
+  "company_name",
+  "physical_address",
+  "column_break_4",
+  "contact_number",
+  "email_address",
+  "items",
+  "quotation_items",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "company_details",
+   "fieldtype": "Section Break",
+   "label": "Company Details"
+  },
+  {
+   "fetch_from": "company_name.company_name",
+   "fieldname": "company_name",
+   "fieldtype": "Link",
+   "label": "Company Name",
+   "options": "Supplier Registration"
+  },
+  {
+   "fetch_from": "physical_address.physical_address",
+   "fieldname": "physical_address",
+   "fieldtype": "Link",
+   "label": "Physical Address",
+   "options": "Supplier Registration"
+  },
+  {
+   "fetch_from": "contact_number.contact_number",
+   "fieldname": "contact_number",
+   "fieldtype": "Link",
+   "label": "Contact Number",
+   "options": "Supplier Registration"
+  },
+  {
+   "fetch_from": "email_address.email_address",
+   "fieldname": "email_address",
+   "fieldtype": "Link",
+   "label": "Email Address",
+   "options": "Supplier Registration"
+  },
+  {
+   "fieldname": "items",
+   "fieldtype": "Section Break",
+   "label": "Items"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Quotation",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "quotation_items",
+   "fieldtype": "Table",
+   "options": "Quotation Items"
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "rfq_number.name",
+   "fieldname": "rfq_number",
+   "fieldtype": "Link",
+   "label": "RFQ Number",
+   "options": "RFQ"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2022-06-06 20:48:08.715915",
+ "modified_by": "Administrator",
+ "module": "Digital Catalogue",
+ "name": "Quotation",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "amend": 1,
+   "cancel": 1,
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "select": 1,
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "MLGRD Procurement Officer",
+   "select": 1,
+   "share": 1
+  },
+  {
+   "amend": 1,
+   "cancel": 1,
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "MLGRD Supplier",
+   "select": 1,
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

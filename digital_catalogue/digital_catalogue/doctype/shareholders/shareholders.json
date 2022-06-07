@@ -1,0 +1,61 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-06-05 23:43:07.085509",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "full_name",
+  "gender",
+  "dob",
+  "nationality",
+  "percentage_shareholding"
+ ],
+ "fields": [
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Full Name"
+  },
+  {
+   "fieldname": "gender",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Gender",
+   "options": "Male\nFemale"
+  },
+  {
+   "fieldname": "dob",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "DOB"
+  },
+  {
+   "fieldname": "nationality",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Nationality",
+   "options": "Registration Country"
+  },
+  {
+   "fieldname": "percentage_shareholding",
+   "fieldtype": "Percent",
+   "in_list_view": 1,
+   "label": "Percentage of Shareholding",
+   "precision": "1"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2022-06-07 09:03:09.276623",
+ "modified_by": "Administrator",
+ "module": "Digital Catalogue",
+ "name": "Shareholders",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

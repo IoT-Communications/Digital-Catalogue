@@ -1,0 +1,32 @@
+{
+ "cards": [
+  {
+   "card": "Incomplete RFQs"
+  },
+  {
+   "card": "Completed RFQs"
+  }
+ ],
+ "charts": [
+  {
+   "chart": "Daily Issued RFQs",
+   "width": "Half"
+  },
+  {
+   "chart": "RFQ Category",
+   "width": "Half"
+  }
+ ],
+ "creation": "2022-06-07 09:54:42.483239",
+ "dashboard_name": "RFQ",
+ "docstatus": 0,
+ "doctype": "Dashboard",
+ "idx": 0,
+ "is_default": 0,
+ "is_standard": 1,
+ "modified": "2022-06-07 10:12:21.266555",
+ "modified_by": "Administrator",
+ "module": "RFQ",
+ "name": "RFQ",
+ "owner": "Administrator"
+}

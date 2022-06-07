@@ -1,0 +1,282 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:company_name",
+ "creation": "2022-06-06 00:46:16.171437",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "company_details",
+  "company_name",
+  "registration_country",
+  "company_registration_no",
+  "cipa_registration_no",
+  "column_break_6",
+  "burs_tin",
+  "burs_tax_clearance_no",
+  "ppadb_registration_no",
+  "edd_certificate_no",
+  "contact_details",
+  "district",
+  "sub_district",
+  "physical_address",
+  "column_break_15",
+  "postal_address",
+  "contact_number",
+  "email_address",
+  "company_ownership",
+  "directors",
+  "shareholders",
+  "reservation_schemes_section",
+  "disability",
+  "doctors_note",
+  "column_break_26",
+  "citizen_owned",
+  "woman_owned",
+  "youth_owned",
+  "categories",
+  "products_and_services",
+  "experience",
+  "references",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "company_details",
+   "fieldtype": "Section Break",
+   "label": "Company Details"
+  },
+  {
+   "fieldname": "company_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Company Name",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "registration_country",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Country of Registration",
+   "options": "Registration Country",
+   "reqd": 1
+  },
+  {
+   "fieldname": "company_registration_no",
+   "fieldtype": "Data",
+   "label": "Company Registration Number"
+  },
+  {
+   "fieldname": "cipa_registration_no",
+   "fieldtype": "Data",
+   "label": "CIPA Registration Number"
+  },
+  {
+   "fieldname": "column_break_6",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "burs_tin",
+   "fieldtype": "Data",
+   "label": "BURS TIN"
+  },
+  {
+   "fieldname": "burs_tax_clearance_no",
+   "fieldtype": "Data",
+   "label": "BURS Tax Clearance Number"
+  },
+  {
+   "fieldname": "ppadb_registration_no",
+   "fieldtype": "Data",
+   "label": "PPADB Registration Number"
+  },
+  {
+   "fieldname": "edd_certificate_no",
+   "fieldtype": "Data",
+   "label": "EDD Certificate Number"
+  },
+  {
+   "fieldname": "contact_details",
+   "fieldtype": "Section Break",
+   "label": "Contact Details"
+  },
+  {
+   "fieldname": "district",
+   "fieldtype": "Link",
+   "label": "District",
+   "options": "District"
+  },
+  {
+   "fieldname": "sub_district",
+   "fieldtype": "Link",
+   "label": "Sub-District",
+   "options": "Southern Sub District"
+  },
+  {
+   "fieldname": "physical_address",
+   "fieldtype": "Data",
+   "label": "Physical Address"
+  },
+  {
+   "fieldname": "column_break_15",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "postal_address",
+   "fieldtype": "Data",
+   "label": "Postal Address"
+  },
+  {
+   "fieldname": "contact_number",
+   "fieldtype": "Data",
+   "label": "Contact Number"
+  },
+  {
+   "fieldname": "email_address",
+   "fieldtype": "Data",
+   "label": "Email Address"
+  },
+  {
+   "fieldname": "company_ownership",
+   "fieldtype": "Section Break",
+   "label": "Company Ownership"
+  },
+  {
+   "fieldname": "directors",
+   "fieldtype": "Table",
+   "label": "Directors",
+   "options": "Directors"
+  },
+  {
+   "fieldname": "shareholders",
+   "fieldtype": "Table",
+   "label": "Shareholders",
+   "options": "Shareholders"
+  },
+  {
+   "fieldname": "reservation_schemes_section",
+   "fieldtype": "Section Break",
+   "label": "Local Policies, Preferential and Reservation Schemes"
+  },
+  {
+   "default": "0",
+   "fieldname": "citizen_owned",
+   "fieldtype": "Check",
+   "label": "100% Citizen Owned",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "woman_owned",
+   "fieldtype": "Check",
+   "label": "Woman Owned",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "youth_owned",
+   "fieldtype": "Check",
+   "label": "Youth Owned",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_26",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "disability",
+   "fieldtype": "Check",
+   "label": "People Living With Disability Owned"
+  },
+  {
+   "fieldname": "doctors_note",
+   "fieldtype": "Attach",
+   "hidden": 1,
+   "label": "Doctor's Note"
+  },
+  {
+   "fieldname": "categories",
+   "fieldtype": "Section Break",
+   "label": "Categories Applied For"
+  },
+  {
+   "fieldname": "products_and_services",
+   "fieldtype": "Table",
+   "label": "Products and Services",
+   "options": "Products and Services"
+  },
+  {
+   "fieldname": "experience",
+   "fieldtype": "Section Break",
+   "label": "Experience"
+  },
+  {
+   "fieldname": "references",
+   "fieldtype": "Table",
+   "label": "References",
+   "options": "References"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Supplier Registration",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2022-06-07 11:30:22.183513",
+ "modified_by": "Administrator",
+ "module": "Supplier Registration",
+ "name": "Supplier Registration",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "MLGRD Procurement Officer",
+   "select": 1,
+   "share": 1
+  },
+  {
+   "amend": 1,
+   "cancel": 1,
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "MLGRD Supplier",
+   "select": 1,
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}
