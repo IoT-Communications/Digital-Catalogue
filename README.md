@@ -40,7 +40,7 @@ Next, change the directory to ***digital_catalogue*** and download the Digital C
 ```bench
 cd digital_catalogue
 
-bench get-app digital_catalogue {{ source_link }}
+bench get-app digital_catalogue https://github.com/IoT-Communications/Digital-Catalogue.git
 ```
 
 Create a new site to install the app by running the command:
